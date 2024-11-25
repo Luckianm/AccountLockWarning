@@ -16,12 +16,9 @@ function BPOnCharacterEntry(aIndex)
 
         if playerLanguage == 0 and playerHasSeenAlert == false and playerServerCode ~= 19 then
             MessageSend(aIndex,0,4,playerName..textEng)
-            playerHasSeenAlert = true
         elseif playerLanguage == 1 and playerHasSeenAlert == false and playerServerCode ~= 19  then
             MessageSend(aIndex,0,4,playerName..textPor)
-            playerHasSeenAlert = true
         elseif playerLanguage == 2 and playerHasSeenAlert == false and playerServerCode ~= 19  then
             MessageSend(aIndex,0,4,playerName..textSpn)
-            playerHasSeenAlert = true
         end
 end
